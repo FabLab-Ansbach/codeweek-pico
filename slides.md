@@ -20,7 +20,7 @@ FabLab Ansbach e.V. in Kooperation mit dem Gründerzentrum ANsWERK, November 202
 
 ---
 layout: image-right
-image: images/raspi.png
+image: ./images/raspi.png
 backgroundSize: 37em
 ---
 # Der Raspberry Pi Pico
@@ -31,7 +31,7 @@ backgroundSize: 37em
 * 26 GPIOs
 ---
 layout: image-left
-image: images/pico_nokia.webp
+image: ./images/pico_nokia.webp
 background-size: 40em
 ---
 # Und wozu?
@@ -72,7 +72,7 @@ layout: section
 Wer hat in Physik gut aufgepasst?
 ---
 layout: image-left
-image: images/stromkreis_simple.webp
+image: ./images/stromkreis_simple.webp
 background-size: 30em
 ---
 # Stromkreis
@@ -105,7 +105,7 @@ $$
 
 ---
 layout: image-right
-image: images/led_aufbau.svg
+image: ./images/led_aufbau.svg
 background-size: 18em
 ---
 # LED
@@ -120,7 +120,7 @@ layout: section
 Eine LED blinken lassen
 ---
 layout: image-right
-image: images/pro1-raspi-led.png
+image: ./images/pro1-raspi-led.png
 background-size: contain
 ---
 # Schaltung
@@ -134,7 +134,7 @@ background-size: contain
 
 ---
 layout: image-left
-image: images/pro1-programm-blink.png
+image: ./images/pro1-programm-blink.png
 background-size: 25em
 ---
 # Programmierung
@@ -185,7 +185,7 @@ Die LED soll mittels Taster gesteuert werden
 
 ---
 layout: image-right
-image: images/pro3-raspi-led-taster.png
+image: ./images/pro3-raspi-led-taster.png
 background-size: contain
 ---
 # Schaltung
@@ -199,7 +199,7 @@ background-size: contain
 
 ---
 layout: image-left
-image: images/pro3-programm-siple.png
+image: ./images/pro3-programm-siple.png
 background-size: 20em
 ---
 # Programm
@@ -270,7 +270,7 @@ layout: section
 
 --- 
 layout: image-left
-image: images/varia-drawers.png
+image: ./images/varia-drawers.png
 background-size: 22em
 ---
 # Variablen
@@ -288,7 +288,7 @@ background-size: 22em
 
 ---
 layout: image-right
-image: images/varia-blocks.png
+image: ./images/varia-blocks.png
 background-size: 28em
 ---
 # Variablen in Piper Make
@@ -304,7 +304,7 @@ background-size: 28em
 
 ---
 layout: image-right
-image: images/p4-varia-simple.png
+image: ./images/p4-varia-simple.png
 background-size: 25em
 ---
 # Einfaches Programm mit Variablen
@@ -321,7 +321,7 @@ layout: statement
 
 ---
 layout: image-right
-image: images/p5-treppenhaus-single.png
+image: ./images/p5-treppenhaus-single.png
 background-size: contain
 ---
 # Verbesserte Treppenhausschaltung
