@@ -58,12 +58,21 @@ Wir nutzen eine grafische Oberfläche.
 
 ---
 ---
+# Benutzung der Laptops
+
+* Benutzer: 'user' Passwort: 'fablab'
+* Keine persönlichen Daten eingeben
+* Nur für den Kurs benutzen
+
+---
+---
 # Piper Make
 Im Browser (Chromium): [make.playpiper.com](https://make.playpiper.com)
 
 * Creative Mode auswählen
 * "New Project" anklicken
 * Auf das Projekt klicken
+* **->DEMO**
 ---
 layout: section
 ---
