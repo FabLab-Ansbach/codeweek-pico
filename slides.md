@@ -372,6 +372,65 @@ layout: statement
 ## Aber die LED wird nur an einer Stelle angesteuert
 
 ---
+layout: section
+---
+# Neues Problem
+
+<br/>
+
+## Kilian hat sein Fahrrad endlich aus dem Treppenhaus entfernt, aber die Ampel ist kaputt.
+
+<br/>
+
+## Wir müssen eine neue Steuerung bauen.
+
+---
+layout: default
+---
+# Ampelsteuerung
+
+* Nur für Autos (Rot, Gelb, Grün)
+* 5 Sek Rot, 2Sek Rot-Gelb, 5 Sek Grün, 2 Sek Gelb, ....
+
+---
+layout: section
+---
+
+# Aber Kilian hat doch gar kein Auto...
+
+## Wir brauchen eine Fußgängerampel!
+
+---
+---
+# Fußgängerampel
+
+* gleiche Schaltung wie vorher
+* Wenn die Autos Grün haben, wird die Fußgängerampel rot
+* Wenn die Autos Rot haben, wird die Fußgängerampel grün
+
+---
+layout: section
+---
+# Beschwerde von Tibor
+
+<br/>
+
+### "Immer stehe ich an dieser Ampel, aber nie kommt ein Fußgänger"
+
+<br/>
+
+## -> Wir brauchen einen Taster!
+
+---
+layout: default
+---
+# Fußgängerampel mit Taster
+
+* Ampel schaltet nur, wenn der Taster gedrückt wird
+  * Normalerweise für Autos grün, Fußgänger rot
+* Wenn der Taster gedrückt wurde, Ablauf wie vorher
+
+---
 # Keep last slide
 layout: default
 ---
