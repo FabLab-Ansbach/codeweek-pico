@@ -1,5 +1,5 @@
 {
-  "name": "raspi-pico-1day",
+  "name": "codeweek-pico",
   "type": "module",
   "private": true,
   "scripts": {
