@@ -3,7 +3,7 @@
 theme: neversink
 color: green-light
 title: Code Week 2025 - Programmieren mit dem Raspberry Pi Pico
-info: FabLab Ansbach e.V. 2025
+info: FabLab Ansbach e.V. 2026
 class: text-center
 # https://sli.dev/features/drawing
 drawings:
@@ -15,7 +15,7 @@ mdc: true
 layout: cover
 ---
 # Programmieren mit dem Raspbery Pi Pico
-FabLab Ansbach e.V. in Kooperation mit dem Gründerzentrum ANsWERK, November 2025
+FabLab Ansbach e.V. in Kooperation mit dem Gründerzentrum ANsWERK, Oktober 2026
 
 ---
 layout: image
@@ -198,6 +198,28 @@ layout: two-cols-header
   * Wovon hängen die Werte ab?
 
 ---
+layout: statement
+---
+
+# Neue Aufgabe
+## Drei LEDs sollen nacheinander aufleuchten (Lauflicht)
+
+---
+layout: default
+---
+# Lauflicht
+
+## Schaltung
+* Dritte LED + Widerstand ergänzen
+* Welchen freien Pin nutzen wir?
+
+## Programm
+* Reicht `repeat forever` mit einer festen Reihenfolge der LEDs?
+* Wie lange sollte jede LED leuchten, damit ein "Lauflicht"-Effekt entsteht?
+
+**Zusatzfrage:** Wie könnten wir die Richtung umkehren (von rechts nach links)?
+
+---
 layout: section
 ---
 
@@ -372,6 +394,41 @@ layout: statement
 ## Aber die LED wird nur an einer Stelle angesteuert
 
 ---
+layout: statement
+---
+# Neue Aufgabe
+## Das Lauflicht soll jetzt per Taster Schritt für Schritt gesteuert werden
+
+---
+layout: default
+---
+# Lauflicht per Taster
+
+* Gleiche Schaltung wie beim automatischen Lauflicht (3 LEDs) + ein Taster
+* Eine Variable (z. B. `schritt`) merkt sich, welche LED gerade an ist
+* Bei jedem Tastendruck: `schritt` um 1 erhöhen, passende LED einschalten, restliche LEDs ausschalten
+
+**Fragen**
+* Wie erkennen wir "ein einzelner Tastendruck" (nicht "gedrückt halten")?
+* Was müssen wir tun, wenn `schritt` größer als die Anzahl der LEDs wird?
+
+**Zusatzfrage:** Wie könnten wir mit einem zweiten Taster rückwärts schalten?
+
+---
+layout: statement
+---
+# Zusatzaufgabe
+
+<br/>
+
+## Binärzähler mit 4 LEDs
+
+<br/>
+
+## Jeder Tastendruck zählt eine Zahl (0-15) hoch – die LEDs zeigen den Wert im Binärsystem
+
+
+---
 layout: section
 ---
 # Neues Problem
@@ -431,13 +488,39 @@ layout: default
 * Wenn der Taster gedrückt wurde, Ablauf wie vorher
 
 ---
+layout: section
+---
+# Letztes Problem
+
+<br/>
+
+### Jemand ist mit dem Fahrrad gegen die Ampel gefahren, jetzt spinnt die Steuerung.
+
+<br/>
+
+### -> Wir brauchen einen Störungsbetrieb!
+
+---
+layout: default
+---
+# Ampel im Störungsbetrieb
+
+* Ein zusätzlicher Taster schaltet zwischen **Normalbetrieb** und **Störungsbetrieb** um
+* Im Störungsbetrieb: alle Ampeln aus, nur Gelb blinkt (1 Sek an, 1 Sek aus)
+* Eine Variable merkt sich, in welchem Modus wir gerade sind
+
+**Fragen**
+* Wo im Programm müssen wir prüfen, ob gerade Störungsbetrieb ist?
+* Was passiert mit dem Rest des Programms, während die Ampel blinkt?
+
+---
 # Keep last slide
 layout: default
 ---
 # Credits
 
-**Erstellt für den FabLab Ansbach e.V., 2025** \
-**Letzte Aktualisierung:** 6. November 2025
+**Erstellt für den FabLab Ansbach e.V., 2026** \
+**Letzte Aktualisierung:** 16. Oktober 2026
 
 Fragen, Anmerkungen, Beschwerden oder Kuchenrezepte an [info@fablab-ansbach.de](mailto:info@fablab-ansbach.de)
 
